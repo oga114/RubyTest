@@ -14,7 +14,7 @@ loop do
     end
 
     if (res.include?($input))
-        load "./fileRename.rb"
+        load "./FileRename.rb"
         break
     else
         puts "そんなフォルダここには存在しないよ"
